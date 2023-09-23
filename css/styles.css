@@ -66,7 +66,7 @@
     margin-bottom: 72px;
 } */
 
-.section-three-list{
+/* .section-three-list{
     list-style-type: none;
     display: flex;
     gap:24px;
@@ -117,30 +117,30 @@
 .section-three-list-title-name{
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2; /* 120% */
+    line-height: 1.2; 
     letter-spacing: 0.02em;
     color: #2E2F42;
-    /* margin-top: 32px; */
+    margin-top: 32px;
     text-align: center;
     margin-bottom: 8px;
 }
 
 .section-three-text{
     font-size: 16px;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
     margin-bottom: 8px;
-}
+} */
 
-.portfolio-section{
+/* .portfolio-section{
     padding: 120px 0;
 }
 
-.sectoin-potfolio-title{
+/* .sectoin-potfolio-title{
     font-size: 36px;
-    line-height: 1.11; /* 111.111% */
+    line-height: 1.11; 
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -193,7 +193,7 @@
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     padding: 40px 32px;
     transform: translateY(100%);
@@ -203,21 +203,20 @@
 .sectoin-potfolio-title-name{
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2; /* 120% */
+    line-height: 1.2; 
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    /* margin-top: 32px;
-    padding:0 16px; */
+    
 }
 
 .sectoin-potfolio-text{
     font-size: 16px;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
     
-}
+} */ */
 
 .page-footer{
     background-color: #2E2F42;

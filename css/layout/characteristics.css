@@ -42,10 +42,12 @@
         display: flex;
         padding-top: 96px;
         padding-bottom: 96px;
+        padding-left: 0;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
         width: 736px;
+        row-gap: 72px;
     }
 
     .section-two-list-item{
@@ -72,52 +74,52 @@
     }
 }
 
-/* .two-section{
-    padding: 120px 0;
+@media screen and (min-width:1158px){
+    .two-section{
+        padding: 120px 0;
+    }
+
+    .section-two-list{
+        list-style-type: none;
+        display: flex;
+        gap:24px;
+    }
+
+    .section-two-list:first-child{
+        width:calc((100%-3*24px)/4);
+    }
+    
+    .section-two-list-item{
+        display: flex;
+        flex-direction: column;
+        max-width: 264px;
+    }
+    
+    .section-two-icon{
+        display: flex;
+        width: 264px;
+        height: 112px;
+        border:1px solid #8E8F99;
+        border-radius: 4px;
+        background-color: #F4F4FD;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    
+    .section-two-list-title{
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2; 
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+    
+    .section-two-list-text{
+        font-size: 16px;
+        line-height: 1.5; 
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
 }
-
-
-
-.section-two-list{
-    list-style-type: none;
-    display: flex;
-    gap:24px;
-}
-
-.section-two-list:first-child{
-    width:calc((100%-3*24px)/4);
-}
-
-.section-two-list-item{
-    display: flex;
-    flex-direction: column;
-    max-width: 264px;
-}
-
-.section-two-icon{
-    display: flex;
-    width: 264px;
-    height: 112px;
-    border:1px solid #8E8F99;
-    border-radius: 4px;
-    background-color: #F4F4FD;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8px;
-}
-
-.section-two-list-title{
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2; 
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
-}
-
-.section-two-list-text{
-    font-size: 16px;
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-    color: #434455;
-} */
