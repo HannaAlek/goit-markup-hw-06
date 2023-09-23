@@ -2,7 +2,7 @@
 
 
 
-.two-section{
+/* .two-section{
     padding: 120px 0;
 }
 
@@ -40,14 +40,13 @@
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2; /* 120% */
-    letter-spacing: 0.02em;
+    line-height: 1.2;
     margin-bottom: 8px;
 }
 
 .section-two-list-text{
     font-size: 16px;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -59,13 +58,13 @@
 
 .section-three-title{
     font-size: 36px;
-    line-height: 1.11; /* 111.111% */
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color:#2e2f42;
     margin-bottom: 72px;
-}
+} */
 
 .section-three-list{
     list-style-type: none;

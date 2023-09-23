@@ -162,7 +162,7 @@
     fill: #f4f4fd;
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width:768px) and (max-width:1157px) {
     .page-header{
         padding-top: 0;
         padding-bottom:0;
@@ -263,7 +263,7 @@
     }
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1158px){
     .open-mobile-menu-button{
         display: none;
     }

@@ -1,11 +1,10 @@
 @media screen and (max-width:767px){
     .hero-container{
         background-color: #2E2F42;
-        padding: 72px 0;
+        padding: 72px 16px;
         background-image:linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/Dark-bg-mobile-min.jpg);
         background-size: cover;
-        max-width: 320px;
-        max-height: 432px;
+        width: 100%;
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -45,14 +44,21 @@
 .button:focus{
     background-color:#404BBF;
 }
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px),
+        screen and (min-device-pixel-ratio: 2) and (max-width: 767px){
+  .hero-container {
+      background-image:linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/Dark-bg-mobile@2x-min.jpg);
+    }
+}
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width:768px) and (max-width:1157px) {
     .hero-container{
         background-color: #2E2F42;
         padding: 112px 0;
         background-image:linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/Dark-bg-tablet-min.jpg);
         background-size: cover;
-        max-width: 768px;
+        width: 100%;
         max-height: 436px;
         background-repeat: no-repeat;
         background-position: center;
@@ -72,7 +78,7 @@
     }
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1158px){
     .hero-container{
         background-color: #2E2F42;
         padding: 188px 0;
