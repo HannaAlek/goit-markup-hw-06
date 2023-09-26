@@ -59,7 +59,7 @@
         background-image:linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../../images/Dark-bg-tablet-min.jpg);
         background-size: cover;
         width: 100%;
-        max-height: 436px;
+        /* max-height: 436px; */
         background-repeat: no-repeat;
         background-position: center;
     }

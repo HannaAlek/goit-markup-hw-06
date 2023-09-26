@@ -12,11 +12,7 @@
         color: #2e2f42;
         margin-bottom: 72px;
     }
-
-    /* .overlay{
-        display: none;
-    } */
-    
+ 
     .section-portfolio-item:hover,
     .section-portfolio-item:focus{
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08)
@@ -157,11 +153,6 @@
 
 }
 
-
-.portfolio-section{
-    /* padding: 120px 0; */
-}
-
 .sectoin-potfolio-title{
     font-size: 36px;
     line-height: 1.11; 
@@ -230,9 +221,9 @@
     line-height: 1.2; 
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px;
      margin-top: 32px;
-    padding:0 16px; 
+    padding:0 16px;  */
  } 
 
  .sectoin-potfolio-text{
