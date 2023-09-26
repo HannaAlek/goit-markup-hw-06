@@ -1,5 +1,5 @@
 @media screen and (min-width:320px){
-    .portfolio-container{
+    .portfolio-section{
         padding: 96px 0;
     } 
 
@@ -159,7 +159,7 @@
 
 
 .portfolio-section{
-    padding: 120px 0;
+    /* padding: 120px 0; */
 }
 
 .sectoin-potfolio-title{

@@ -1,8 +1,12 @@
-@media screen and (max-width:767px){
+@media screen and (min-width:320px){
+    .two-section{
+        padding: 96px 0; 
+    }
+
     .section-two-list{
         display: flex;
         flex-direction: column;
-        padding: 96px 0;
+        /* padding: 96px 0; */
         margin: 0 auto;
         gap: 72px;
         align-items: center;
@@ -33,21 +37,17 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1157px) {
+@media screen and (min-width:768px){
     .section-two-icon{
         display: none;
     }
 
     .section-two-list{
         display: flex;
-        padding-top: 96px;
-        padding-bottom: 96px;
-        padding-left: 0;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
         width: 736px;
-        row-gap: 72px;
     }
 
     .section-two-list-item{
@@ -77,6 +77,7 @@
 @media screen and (min-width:1158px){
     .two-section{
         padding: 120px 0;
+
     }
 
     .section-two-list{
